@@ -24,7 +24,7 @@ server.listen(8080, () => {
   console.log('Server berjalan bosss http://localhost:8080');
 });
 
-const MONGO_URL = 'mongodb+srv://tom:tom@restapi.eivt7uk.mongodb.net/?retryWrites=true&w=majority'; // DB 
+const MONGO_URL = ''; // DB 
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGO_URL);
